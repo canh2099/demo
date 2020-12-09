@@ -12,4 +12,7 @@ Mouse.prototype.sayHi=function(){
 	console.log('Hi! I am a mouse. My name is ' + chalk.red(this.name));
 };
 
+Mouse.prototype.method_name = function() {
+	console.log('running');
+};
 module.exports = Mouse;
